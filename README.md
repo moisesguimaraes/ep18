@@ -6,7 +6,7 @@ OpenStack Common Libraries (Oslo) provides an enhanced alternative to Python's s
 
 The motivation of this work is to give oslo.config the ability to fetch sensitive configuration data (secrets) from places that are better equipped to deal with them.
 
-Problem Description
+## Problem Description
 
 Best practices say that passwords and other secret values should not be stored as plain text in configuration files and some regulations might even enforce this practice as mandatory.
 
